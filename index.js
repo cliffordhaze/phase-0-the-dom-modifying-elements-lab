@@ -3,9 +3,9 @@ main.remove();
 
 const newHeader = document.createElement("h1");
 newHeader.setAttribute('id', 'victory');
-document.body.append(newHeader);
 const text = document.getElementById("victory");
-text.innerHTML += "Nicole is the champion"
+newHeader.textContent = "Nicole is the champion"
+document.body.append(newHeader);
 
 
 
